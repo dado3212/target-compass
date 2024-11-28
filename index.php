@@ -1,18 +1,17 @@
+<?php
+    /**
+     * MODIFY THIS FOR A DIFFERENT TARGET LOCATION
+     *  - your target (for what will show up in the pointer, keep it short)
+     *  - your descriptor (what will show up for "Find <x>" in the title/button)
+     *  - the location (lat, lon to as specific as you can make it)
+     */
+    $target = 'Barn';
+    $descriptor = 'the barn';
+    $location = ['lat' => 43.70720223386053, 'lon' => -72.29280809595264];
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php
-			// Respects 'Request Desktop Site'
-			if (preg_match("/(iPhone|iPod|iPad|Android|BlackBerry)/i", $_SERVER["HTTP_USER_AGENT"])) {
-				?><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"><?php
-			}
-
-            // Modify this for a different target location
-            $target = 'Barn';
-            $descriptor = 'the barn';
-            $location = ['lat' => 43.70720223386053, 'lon' => -72.29280809595264];
-        ?>
-
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
@@ -38,6 +37,13 @@
         <meta property="og:description" content="Which direction is <?php echo $descriptor; ?>?">
 
         <title>Find <?php echo $descriptor; ?></title>
+
+        <?php
+			// Respects 'Request Desktop Site'
+			if (preg_match("/(iPhone|iPod|iPad|Android|BlackBerry)/i", $_SERVER["HTTP_USER_AGENT"])) {
+				?><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"><?php
+			}
+        ?>
 
         <style>
             html {
