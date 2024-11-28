@@ -6,6 +6,8 @@ A simple website that allows you to set a latitude and longitude and then use th
   <img src="https://github.com/user-attachments/assets/9f4cbe70-a8f4-4d08-b2e3-0cafd15c586d">
 </p>
 
+You can check out an example at https://alexbeals.com/projects/barn.
+
 <p align="center">
 <img height="600" alt="Screenshot 2024-11-28 at 12 03 27 AM" src="https://github.com/user-attachments/assets/7b5570bd-c39e-490c-8dad-4594d195769f">
 </p>
