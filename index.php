@@ -7,6 +7,7 @@
 				?><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"><?php
 			}
 
+            // Modify this for a different target location
             $target = 'Barn';
             $descriptor = 'the barn';
             $location = ['lat' => 43.70720223386053, 'lon' => -72.29280809595264];
