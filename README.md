@@ -9,7 +9,7 @@ A simple website that allows you to set a latitude and longitude and then use th
 You can check out an example at https://alexbeals.com/projects/barn.
 
 <p align="center">
-<img height="600" alt="Screenshot 2024-11-28 at 12 03 27 AM" src="https://github.com/user-attachments/assets/7b5570bd-c39e-490c-8dad-4594d195769f">
+  <img height="500" alt="Screenshot 2024-11-28 at 12 03 27 AM" src="https://github.com/user-attachments/assets/18ea018a-b861-460a-ab10-a0037698cb07">
 </p>
 
 ## Setup
